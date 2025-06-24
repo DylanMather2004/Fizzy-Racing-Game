@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
         }
      
         CalculateThrust();
-        rb.AddRelativeForce(Vector3.forward * currentSpeed);
+        rb.velocity=new Vector3(transform.forward.x*currentSpeed,rb.velocity.y,transform.forward.z*currentSpeed);
         if (rotDir != 0)
         {
             rb.AddTorque(Vector3.up * currentTurnAngle * rotDir);

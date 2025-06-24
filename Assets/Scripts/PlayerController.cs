@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     public float gravity = 10;
     float currentSpeed = 0.0f;
     private bool isAccelerating = false;
+    private bool isDrifting = false; 
     float rotDir;
     [Header("PID Configs")]
     public PIDController PID;
@@ -102,14 +103,14 @@ public class PlayerController : MonoBehaviour
             else
             {
                 currentSpeed = 0;
-                rb.drag = 0;
+                rb.drag = 4;
             }
         }
     }
     public void RotateShip(InputAction.CallbackContext context)
     {
         rotDir = context.ReadValue<float>();
-        //Debug.Log(rotDir);
+        Debug.Log(rotDir);
  
  
         

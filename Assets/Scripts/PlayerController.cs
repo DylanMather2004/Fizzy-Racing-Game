@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
         }
      
         CalculateThrust();
-        rb.AddForce(transform.forward * currentSpeed);
+        rb.AddRelativeForce(Vector3.forward * currentSpeed);
         if (rotDir != 0)
         {
             rb.AddTorque(Vector3.up * currentTurnAngle * rotDir);
@@ -111,6 +111,7 @@ public class PlayerController : MonoBehaviour
     {
         rotDir = context.ReadValue<float>();
         Debug.Log(rotDir);
+        rb.AddRelativeForce((Vector3.right * rotDir) * 50);
  
  
         

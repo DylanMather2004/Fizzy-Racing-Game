@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
@@ -26,6 +27,8 @@ public class PlayerController : MonoBehaviour
     [Header("PID Configs")]
     public PIDController PID;
     public float maxDistanceFromGround;
+    [Header("Graphics Configs")]
+    [SerializeField] private TrailRenderer[] trails; 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -77,11 +80,19 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("started");
             isAccelerating = true;
+            for (int i = 0; i < trails.Length; i++)
+            {
+                trails[i].emitting = true;
+            }
         }
         if (context.canceled)
         {
             Debug.Log("cancelled");
             isAccelerating = false;
+            for (int i = 0; i < trails.Length; i++)
+            {
+                trails[i].emitting = false;
+            }
         }
     }
 

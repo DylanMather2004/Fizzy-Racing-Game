@@ -112,6 +112,9 @@ MonoBehaviour:
   gravity: 100
   PID: {fileID: 1861389695748290014}
   maxDistanceFromGround: 2
+  trails:
+  - {fileID: 9076378367311049403}
+  - {fileID: 6301725874459620828}
 --- !u!23 &4711451396300819
 MeshRenderer:
   m_ObjectHideFlags: 0

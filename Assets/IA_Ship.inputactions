@@ -31,6 +31,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "flip",
+                    "type": "Button",
+                    "id": "3483695a-0f78-4fd7-bde0-967a87de7f68",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -86,6 +95,17 @@
                     "processors": "",
                     "groups": ";Ship Control",
                     "action": "Airbrake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e4c0dfb-c8ab-4643-b3c2-e7f5c5f9eab5",
+                    "path": "<Keyboard>/#(R)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "flip",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

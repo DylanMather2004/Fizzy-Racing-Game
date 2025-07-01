@@ -370,6 +370,46 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4371802976022237534, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371802976022237534, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_ActionId
+      value: 3483695a-0f78-4fd7-bde0-967a87de7f68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371802976022237534, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_ActionName
+      value: M&K/flip[/Keyboard/r]
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371802976022237534, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371802976022237534, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371802976022237534, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1904988042}
+    - target: {fileID: 4371802976022237534, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371802976022237534, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetRotation
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371802976022237534, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371802976022237534, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4859002975326330883, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
       propertyPath: m_Name
       value: Ship
@@ -388,19 +428,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4860938918390493750, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.4798796
       objectReference: {fileID: 0}
     - target: {fileID: 4860938918390493750, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4860938918390493750, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.8773344
       objectReference: {fileID: 0}
     - target: {fileID: 4860938918390493750, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4860938918390493750, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -408,7 +448,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4860938918390493750, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -122.645
       objectReference: {fileID: 0}
     - target: {fileID: 4860938918390493750, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -973,6 +1013,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -462981019419857548, guid: 5859f225558d97d46879fb3b14213e03, type: 3}
+--- !u!114 &1904988042 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3866732568419951269, guid: 94a9c2d2755f9f243909e5d65163a801, type: 3}
+  m_PrefabInstance: {fileID: 1327018781}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e08b44fd26c77a44fa07e8013e61e7b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1960464382
 GameObject:
   m_ObjectHideFlags: 0

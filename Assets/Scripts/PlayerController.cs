@@ -141,4 +141,11 @@ public class PlayerController : MonoBehaviour
             Debug.Log("stopped");
         }
     }
+    public void ResetRotation(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            transform.rotation = transform.rotation * Quaternion.Euler(90, 0, 0);
+        }
+    }
 }

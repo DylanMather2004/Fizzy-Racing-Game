@@ -80,8 +80,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b8bb93e4f422d54fac4a14b4aef87587
     GuidInternal: 
-    m_lastTime: -8584494378685160868
-    List: []
+    m_lastTime: -8584494355904566307
+    List:
+    - name: Thruster_Start
+      guid: 96e0da662e76d54d85dc934c720b6f86
+      id: 2051128187
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b8bb93e4f422d54fac4a14b4aef87587
+      - ElementName: Thruster_Start
+        ObjectType: 3
+        guid: 96e0da662e76d54d85dc934c720b6f86
+      Path: Events\Default Work Unit\Thruster_Start
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Thruster_Stop
+      guid: 39249c90667f2443b71ae1f8f5430988
+      id: 2308976345
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b8bb93e4f422d54fac4a14b4aef87587
+      - ElementName: Thruster_Stop
+        ObjectType: 3
+        guid: 39249c90667f2443b71ae1f8f5430988
+      Path: Events\Default Work Unit\Thruster_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -94,8 +128,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 75f147af1f919847b64bd2aa13a656f9
     GuidInternal: 
-    m_lastTime: -8584494378683724020
-    List: []
+    m_lastTime: -8584494355904378146
+    List:
+    - name: Acceleration
+      guid: 4277a77a8422664ab25bac45ff27bed3
+      id: 212170665
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f147af1f919847b64bd2aa13a656f9
+      - ElementName: Acceleration
+        ObjectType: 13
+        guid: 4277a77a8422664ab25bac45ff27bed3
+      Path: Game Parameters\Default Work Unit\Acceleration
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +187,7 @@ MonoBehaviour:
     m_lastTime: -8584494378684508166
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 05000000060000000b0000000c0000001400000015000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -115,6 +115,18 @@ MonoBehaviour:
   trails:
   - {fileID: 9076378367311049403}
   - {fileID: 6301725874459620828}
+  ThrusterPlay:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: dc309b79e80c0df47b1b3441f7c3a342, type: 2}
+  ThrusterStop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ac7cde393d798d649bd789d8d71118ea, type: 2}
+  ThrusterRTPC:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 535b6d740a2e0954cab59e9bd0d5a467, type: 2}
 --- !u!23 &4711451396300819
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -230,6 +242,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 2f0db3f4-2a15-4a94-95fc-03b8f1c52473
     m_ActionName: M&K/Airbrake[/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3483695a-0f78-4fd7-bde0-967a87de7f68
+    m_ActionName: M&K/flip[/Keyboard/r]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Ship Control
   m_DefaultActionMap: M&K

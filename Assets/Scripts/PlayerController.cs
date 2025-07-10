@@ -28,11 +28,17 @@ public class PlayerController : MonoBehaviour
     public PIDController PID;
     public float maxDistanceFromGround;
     [Header("Graphics Configs")]
-    [SerializeField] private TrailRenderer[] trails; 
+    [SerializeField] private TrailRenderer[] trails;
+
+    //[Header ("Audio Configs")]
+    public AK.Wwise.Event ThrusterPlay;
+    public AK.Wwise.Event ThrusterStop;
+    public AK.Wwise.RTPC ThrusterRTPC;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         currentTurnAngle = turnAngle;
+        ThrusterPlay.Post(gameObject);
     }
 
     // Update is called once per frame
@@ -79,6 +85,7 @@ public class PlayerController : MonoBehaviour
         if (context.started)
         {
             Debug.Log("started");
+            
             isAccelerating = true;
             for (int i = 0; i < trails.Length; i++)
             {
@@ -88,6 +95,7 @@ public class PlayerController : MonoBehaviour
         if (context.canceled)
         {
             Debug.Log("cancelled");
+            //ThrusterStop.Post(gameObject);
             isAccelerating = false;
             for (int i = 0; i < trails.Length; i++)
             {
@@ -117,6 +125,7 @@ public class PlayerController : MonoBehaviour
                 rb.drag = 4;
             }
         }
+        ThrusterRTPC.SetValue(gameObject,currentSpeed);
     }
     public void RotateShip(InputAction.CallbackContext context)
     {

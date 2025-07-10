@@ -1,0 +1,63 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{EDCCC909-DF23-499A-96AB-C25F71DE02F4}",
+    "Language": "SFX",
+    "Hash": "{6A846CC7-3A1A-0065-F018-D505FC45D28F}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "66969261",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Thruster.wav",
+      "CachePath": "B5/{B5890345-CDA2-8AA1-0032-57FB2EB1048D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2051128187",
+      "Name": "Thruster_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Thruster_Start",
+      "GUID": "{66DAE096-762E-4DD5-85DC-934C720B6F86}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "66969261"
+       }
+      ]
+     },
+     {
+      "Id": "2308976345",
+      "Name": "Thruster_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Thruster_Stop",
+      "GUID": "{909C2439-7F66-4324-B71A-E1F8F5430988}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "212170665",
+      "Name": "Acceleration",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Acceleration",
+      "GUID": "{7AA77742-2284-4A66-B25B-AC45FF27BED3}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{47F2D595-5901-FBB0-FE14-7ADF97E847CE}"
+ }
+}

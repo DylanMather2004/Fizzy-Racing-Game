@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E6DC57DD-ED3B-4BF2-931D-4020D313B170}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{E6DC57DD-ED3B-4BF2-931D-4020D313B170}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Thruster" ID="{17341389-F4A0-4F63-A7FE-561F079E46D1}" ShortID="156892861">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF472B4-878F-46A0-9FD8-43276BC27F77}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30FBE3B5-8773-4B0C-8C5D-674B7A262E7B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Thruster" ID="{0761893E-B252-4D00-AA4D-4CCFCB2A160F}">
+							<Language>SFX</Language>
+							<AudioFile>Thruster.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="66969261"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{DC1E99A0-0DD3-457C-9798-98F2E69B8029}" ShortID="973017648">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Acceleration" ID="{7AA77742-2284-4A66-B25B-AC45FF27BED3}" WorkUnitID="{AF47F175-911F-4798-B64B-D2AA13A656F9}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{DA9219A7-C95F-4A44-8317-6906DE4DFEBC}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>1941</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="Thruster" ID="{0761893E-B252-4D00-AA4D-4CCFCB2A160F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

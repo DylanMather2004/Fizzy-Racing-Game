@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2051128187	Thruster_Start			\Default Work Unit\Thruster_Start	
+	2308976345	Thruster_Stop			\Default Work Unit\Thruster_Stop	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	212170665	Acceleration			\Default Work Unit\Acceleration	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	66969261	Thruster	C:\Users\mathe\PID Controller Prototype\PID Controller Prototype_WwiseProject\.cache\B5\{B5890345-CDA2-8AA1-0032-57FB2EB1048D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Thruster		2646096
+

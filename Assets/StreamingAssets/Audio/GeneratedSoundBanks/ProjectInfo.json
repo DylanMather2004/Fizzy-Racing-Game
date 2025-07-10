@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "PID Controller Prototype_WwiseProject",
+   "GUID": "{BFF10FB8-4A5C-4E7A-9593-4B59613ACD8A}",
+   "Generator": "2024.1.6.8842"
+  },
+  "CacheRoot": "../../../../PID Controller Prototype_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{0F654D9D-FFEA-442C-B121-0821B1C82D91}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../../PID Controller Prototype_WwiseProject/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{81869469-01CA-44BF-9B22-C3965BC25139}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../PID Controller Prototype_WwiseProject/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{A3D95971-EA39-4000-AA90-8AEB44C04E26}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{193BF8B0-AA11-2200-F89C-B2F25BB15EE8}"
+ }
+}

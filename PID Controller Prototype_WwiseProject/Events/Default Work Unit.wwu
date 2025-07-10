@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E493BBB8-22F4-4FD5-AC4A-14B4AEF87587}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{E493BBB8-22F4-4FD5-AC4A-14B4AEF87587}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Thruster_Start" ID="{66DAE096-762E-4DD5-85DC-934C720B6F86}">
+					<ChildrenList>
+						<Action Name="" ID="{131905FC-1B14-47D4-B766-2838070C2B97}" ShortID="472218471">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thruster" ID="{17341389-F4A0-4F63-A7FE-561F079E46D1}" WorkUnitID="{E6DC57DD-ED3B-4BF2-931D-4020D313B170}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Thruster_Stop" ID="{909C2439-7F66-4324-B71A-E1F8F5430988}">
+					<ChildrenList>
+						<Action Name="" ID="{222A92B4-1783-498C-B283-C87EC9F98152}" ShortID="979366449">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thruster" ID="{17341389-F4A0-4F63-A7FE-561F079E46D1}" WorkUnitID="{E6DC57DD-ED3B-4BF2-931D-4020D313B170}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
